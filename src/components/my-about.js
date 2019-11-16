@@ -9,10 +9,8 @@ class About extends PageViewElement {
     return html`
       ${SharedStyles}
       <section>
-        <h2>About me</h2>
-        <p>Een  specialised in Data Science. Both frontend oriented and backend oriented. Frontend: worked with webcomponents, PWA and the popular JS frameworks. Backend: NodeJS</p>
-        <p>Test Engineer specialised in test automation setup. From checks in the code editor and pull request until tool selection, setup and implementation for unit and integration tests.</p>
-        <p>Team Builder, Goal Oriented and Quality Focused.</p>
+        <h2>3. About me</h2>
+        <p>I’m an enthusiastic data scientist that combines the best of two worlds. I use data science to guide the way, but with a designer's heart and always with end-users in mind. With my great variety of tools, I create the optimal solution for my clients. Whether this is a dashboard that gives you a snapshot overview of what’s going on in your business, a machine learning model that shows you what the future will bring or an innovative product to move your company forward. I got you covered! Are you ready to skyrocket? Let’s take a ride!</p>
       </section>
     `;
   }

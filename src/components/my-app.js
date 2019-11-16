@@ -201,7 +201,7 @@ class MyApp extends connect(store)(LitElement) {
       <!-- This gets hidden on a small screen-->
       <nav class="toolbar-list">
         <a ?selected="${this._page === 'about'}" href="/about">About me</a>
-        <a ?selected="${this._page === 'website'}" href="/website"><code>this</code> website</a>
+        <a ?selected="${this._page === 'website'}" href="/website">What can I do for you?</a>
         <a ?selected="${this._page === 'cv'}" href="/cv">CV</a>
       </nav>
     </app-header>
@@ -212,7 +212,7 @@ class MyApp extends connect(store)(LitElement) {
       <nav class="drawer-list">
         <a href="/"><img class="logo-menu" src="images/manifest/icon-96x96.png" alt="logo" width="96" height="96"></a>
         <a ?selected="${this._page === 'about'}" href="/about">About me</a>
-        <a ?selected="${this._page === 'website'}" href="/website"><code>this</code> website</a>
+        <a ?selected="${this._page === 'website'}" href="/website">What can I do for you?</a>
         <a ?selected="${this._page === 'cv'}" href="/cv">CV</a>
       </nav>
     </app-drawer>
@@ -226,7 +226,7 @@ class MyApp extends connect(store)(LitElement) {
     </main>
 
     <footer>
-      <p class="footer-text">Spero Solutions, <a href="mailto:web@spero.solutions">web@spero.solutions</a></p>
+      <p class="footer-text">Coloured Numbers, <a href="mailto:jette@colourednumbers.nl">jette@colourednumbers.nl</a></p>
     </footer>
 
     <snack-bar ?active="${this._snackbarOpened}">
