@@ -1,0 +1,9 @@
+build/
+node_modules/
+test/integration/screenshots-current/
+_site/
+.firebase/
+.DS_Store
+.sonarlint
+reports/*.html
+reports/*.json

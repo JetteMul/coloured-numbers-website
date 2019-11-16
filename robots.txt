@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://colourednumbers.nl/esm-bundled/sitemap.xml
