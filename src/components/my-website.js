@@ -9,7 +9,7 @@ class Website extends PageViewElement {
     return html`
       ${SharedStyles}
       <section>
-        <h2>2. What can I do for you?</h2>
+        <h2>What can I do for you?</h2>
         <p>My services are for businesses who want to grow towards future needs of their clients.</p>
       </section>
       <section>
