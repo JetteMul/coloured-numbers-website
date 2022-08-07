@@ -8,9 +8,6 @@
   ],
   "license": "BSD-3-Clause",
   "repository": "jettemul/coloured-numbers-website",
-  "engines": {
-    "node": "8"
-  },
   "scripts": {
     "start": "polymer serve",
     "install:functions": "cd functions && npm install",
